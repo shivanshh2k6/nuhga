@@ -1,0 +1,115 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "DRN-NORTH-PRIMARY",
+        "name": "Northern Chunabhatti Trunk Stormwater Inlet",
+        "source": "Bhopal Municipal Corporation Master Drainage Plan",
+        "date": "2025-06",
+        "alignment_type": "Official Mapped Drainage Corridor",
+        "buffer_m": 15
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4238,
+            23.2162
+          ],
+          [
+            77.4241,
+            23.2135
+          ],
+          [
+            77.4239,
+            23.211
+          ],
+          [
+            77.4246,
+            23.2095
+          ],
+          [
+            77.4252,
+            23.2082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "DRN-WEST-RUNOFF",
+        "name": "Bhadbhada Ridge Surface Flow Pathway",
+        "source": "ISRO CartoDEM Terrain Flow Accumulation Analysis",
+        "date": "2026-01",
+        "alignment_type": "Modelled Topographic Pathway (Requires Survey)",
+        "buffer_m": 10
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4125,
+            23.2062
+          ],
+          [
+            77.415,
+            23.2052
+          ],
+          [
+            77.4172,
+            23.2045
+          ],
+          [
+            77.4188,
+            23.2032
+          ],
+          [
+            77.4208,
+            23.2025
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_id": "DRN-SOUTH-SPILLWAY",
+        "name": "Kaliasot River Outflow & Surplus Spillway",
+        "source": "Water Resources Department (WRD) Alignment",
+        "date": "2025-06",
+        "alignment_type": "Official Mapped Drainage Corridor",
+        "buffer_m": 20
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.4248,
+            23.1965
+          ],
+          [
+            77.4255,
+            23.1942
+          ],
+          [
+            77.4262,
+            23.192
+          ],
+          [
+            77.4268,
+            23.1895
+          ]
+        ]
+      }
+    }
+  ]
+}

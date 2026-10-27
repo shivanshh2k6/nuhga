@@ -1,0 +1,155 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "KHASRA-412/1 (Shoreline Filling Violation)",
+        "applicant": "Apex Infra City Hub (Simulated Commercial)",
+        "submitted_drainage_plan": false,
+        "description": "Encroaches 42m into northeastern Shahpura Lake conservation boundary."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4272,
+              23.2062
+            ],
+            [
+              77.4292,
+              23.206
+            ],
+            [
+              77.429,
+              23.2045
+            ],
+            [
+              77.427,
+              23.2048
+            ],
+            [
+              77.4272,
+              23.2062
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "KHASRA-188/3 (Trunk Drain Obstruction)",
+        "applicant": "Green Meadows Residency (Simulated Housing)",
+        "submitted_drainage_plan": true,
+        "description": "Constructed directly over the Northern Chunabhatti Trunk Stormwater channel."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.423,
+              23.2115
+            ],
+            [
+              77.4252,
+              23.2115
+            ],
+            [
+              77.4252,
+              23.2132
+            ],
+            [
+              77.423,
+              23.2132
+            ],
+            [
+              77.423,
+              23.2115
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "KHASRA-95/A (Buffer Proximity Zone)",
+        "applicant": "Civic Health Sub-Center (Simulated Public Sector)",
+        "submitted_drainage_plan": true,
+        "description": "Outside high-water line, but within mandatory 30m NGT buffer zone."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.421,
+              23.197
+            ],
+            [
+              77.4225,
+              23.197
+            ],
+            [
+              77.4225,
+              23.1979
+            ],
+            [
+              77.421,
+              23.1979
+            ],
+            [
+              77.421,
+              23.197
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "plot_id": "KHASRA-620/8 (Compliant Upland Development)",
+        "applicant": "Bhopal Smart Office Suites (Simulated Mixed-Use)",
+        "submitted_drainage_plan": true,
+        "description": "Safe elevated zone with no water bodies, buffers, or natural drainage corridors."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.414,
+              23.1925
+            ],
+            [
+              77.4168,
+              23.1925
+            ],
+            [
+              77.4168,
+              23.195
+            ],
+            [
+              77.414,
+              23.195
+            ],
+            [
+              77.414,
+              23.1925
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

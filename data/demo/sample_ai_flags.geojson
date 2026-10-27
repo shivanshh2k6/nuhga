@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "flag_id": "FLAG-SHP-2026-01",
+        "classification": "Suspected Wetland Reclamation / Land Filling",
+        "change_detected": "Open Water -> Compacted Built-up Surface",
+        "imagery_dates": "Sentinel-2 Multi-Spectral: Nov 2021 vs Feb 2026",
+        "confidence": 0.94,
+        "priority": "High Risk",
+        "reason": "Abrupt NDWI drop (+0.41 to -0.22) & NDBI increase along the eastern shoreline bund."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4276,
+              23.206
+            ],
+            [
+              77.429,
+              23.2058
+            ],
+            [
+              77.4288,
+              23.2046
+            ],
+            [
+              77.4274,
+              23.205
+            ],
+            [
+              77.4276,
+              23.206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "flag_id": "FLAG-SHP-2026-02",
+        "classification": "Suspected Drainage Culvert Paving",
+        "change_detected": "Riparian Vegetation -> Impervious Concrete",
+        "imagery_dates": "Sentinel-2 Multi-Spectral: Nov 2021 vs Feb 2026",
+        "confidence": 0.88,
+        "priority": "High Risk",
+        "reason": "NDVI drop (+0.58 to +0.12) directly intersecting Northern Trunk Inlet alignment."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.4234,
+              23.2118
+            ],
+            [
+              77.4248,
+              23.2118
+            ],
+            [
+              77.4248,
+              23.2128
+            ],
+            [
+              77.4234,
+              23.2128
+            ],
+            [
+              77.4234,
+              23.2118
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
